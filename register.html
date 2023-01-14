@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="cssphp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <div class="body">
+
+            <div class="body__header">
+                Register Account
+            </div>
+
+            <div class="body__form">
+                <form action="account.php" method="post" class="form">
+
+                    <div class="form__row">
+                        <label class="form__label" for="username">User Name</label>
+                        <input class="form__input" type="text" name="regUsername" value="" id="username" placeholder="User Name" />
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="password">Pass Word</label>
+                        <input class="form__input" type="password" name="regPassword" value="" id="password" placeholder="Pass Word" />
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="regrRe-password">Re - PassWord</label>
+                        <input class="form__input" type="password" name="regrRepassword" value="" id="regrRe-password" placeholder="Re - PassWord" />
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="regPhoneNumber">Phone Number</label>
+                        <input class="form__input" type="text" name="regPhoneNumber" value="" id="regPhoneNumber" placeholder="Phone Number" />
+                    </div>
+
+                    <div class="form__row">
+                        <label class="form__label" for="regEmail">Email</label>
+                        <input class="form__input" type="text" name="regEmail" value="" id="regEmail" placeholder="Email" />
+                    </div>
+
+                    <div class="form__row form__footer">
+                        <input type="submit" name="register" value="Register" class="form__row--btn" />
+                        <span>OR</span>
+                        <div class="form__row--social">
+                            <a href="/" class="social__login"><img src="images/facebook.png" alt="Alternate Text" class="social__login--img social__login--space" />Facebook</a>
+                            <a href="/" class="social__login"><img src="images/gg.png" alt="Alternate Text" class="social__login--img" />Google</a>
+                        </div>
+
+                        <div class="form__other">
+                            <p>By registering, you agree to <a href="#" class="privacy form__other--opacity">the Terms of Use</a> & <a class="privacy form__other--opacity" href="#">Privacy Policy</a></p>
+                            <div class="form__other--qs">
+                                <span class="qs">Bạn đã có tài khoản?</span>
+                                <a href="login.html" class="form__other--login form__other--opacity">
+                                    &nbsp;Login
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
